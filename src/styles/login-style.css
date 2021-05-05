@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/*     LOGIN     */
+.login-form,
+.modal-title {
+  font-family: "Bebas Neue", cursive;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+/*     SIGN UP    */
+
+.signup {
+  font-family: "Bebas Neue", cursive;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.dropdown-item {
+  padding: 20px;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.link {
+  font-family: "Bebas Neue", cursive;
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 1.5px rgb(14, 13, 13);
+  -webkit-text-fill-color: rgb(255, 248, 248);
+  transition: 0.5s;
+}
+.link:hover {
+  font-weight: 400;
+  font-size: 35px;
+  transition: 0.5s;
+  letter-spacing: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.login-button {
+  width: 45px;
+  padding: 2px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.cart-button:hover {
+  transition: 0.7s;
+  opacity: 1;
+}
+/*   Hay que agregar media querys para cambiar opacity a 1 cuando el ancho es menor a 700 y pico px */
